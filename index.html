@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>File Upload</title>
+    <style>
+        body {
+            background: black;
+            color: lightgrey;
+            font-family: sans-serif;
+        }
+
+        .dropzone {
+            position: relative;
+            height: 200px;
+            width: 100%;
+            border: 1px dashed lightgrey;
+        }
+    </style>
+</head>
+<body>
+    <div id="dropzone" class="dropzone"></div>
+    <div id="messages"></div>
+    <script src="node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="node_modules/sinon/pkg/sinon.js"></script>
+    <script src="node_modules/fine-uploader/fine-uploader/fine-uploader.js"></script>
+    <script src="upload.js"></script>
+</body>
+</html>
