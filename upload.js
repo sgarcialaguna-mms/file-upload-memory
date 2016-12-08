@@ -64,7 +64,7 @@ dropzone.addEventListener('drop', function (event)
 window.setInterval(function(){
     var next10Files = queuedFiles.slice(0, 10)
     queuedFiles = queuedFiles.slice(10)
-    if (queuedFiles.length > 0)
+    if (next10Files.length > 0)
     {
         uploader.addFiles(next10Files)
     }
