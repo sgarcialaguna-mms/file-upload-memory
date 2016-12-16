@@ -10,8 +10,6 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "fine-uploader": "5.11.9",
-    "jquery": "2.2.4",
-    "sinon": "1.17.6"
+    "fine-uploader": "5.11.9"
   }
 }
